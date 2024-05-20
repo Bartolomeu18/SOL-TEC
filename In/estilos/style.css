@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:1px solid rgb(0, 153, 255) ;
+}
+header h1{
+    margin-left: 8px;
+}
+header nav a{
+    text-decoration: none;
+    font-size: larger;
+    font: bold;
+    color: black    ;
+    margin: 9px;
+}
+#carouselExampleIndicators{
+    width: 100%;
+    margin: auto;
+}
+#con_im {
+    height: 500px;
+    background-image: url(../img/man-making-plans-renovate-house-using-laptop-smartphone.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#con_im2{
+    height: 500px;
+    background-image: url(../img/man-making-plans-renovate-house-using-laptop-smartphone.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#con_im3 {
+    height: 500px;
+    background-image: url(../img/man-making-plans-renovate-house-using-laptop-smartphone.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.after_car{
+    width:85%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 12PX;
+}
+.after_car img{
+    width: 70%;
+    border-radius: 2px;
+    height: 400px;
+
+}
+.after_car_conteiner{
+    width:70%;
+    margin: auto;
+    margin-top: 50px;
+
+}
+.after_car_conteiner img{
+    width: 70%;
+    border-radius: 2px;
+    height: 400px;
+}
+.service_conteiner{
+    display:flex;
+    justify-content: space-around;
+    width:70%;
+    height: 400px;
+    margin: auto;
+    padding-top: 30px;
+}
+
